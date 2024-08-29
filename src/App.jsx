@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import QuizScreen from './components/QuizScreen.jsx'
-import JoinScreen from './components/JoinScreen.jsx'
+import QuizScreen from './Components/QuizScreen.jsx'
+import JoinScreen from './Components/JoinScreen.jsx'
 
 function App() {
     const [isQuizStarted, setIsQuizStarted] = useState(false)
